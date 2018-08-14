@@ -10,7 +10,8 @@ import UIKit
 
 class SortTableViewCell: UITableViewCell {
 
-    @IBOutlet var sortLabel: UILabel!
+    @IBOutlet weak var sortLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

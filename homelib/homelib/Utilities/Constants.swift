@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+//sort_by
+let SORT_BY = ["Book Title","Author"]
+
+//tableview cell identifier
+let SORT_CELL = "sortcell"

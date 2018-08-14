@@ -14,7 +14,6 @@
 		56199C401F55E6A300F75EBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56199C3E1F55E6A300F75EBA /* LaunchScreen.storyboard */; };
 		567428EF2020176D004C09EC /* MyBooksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567428EE2020176D004C09EC /* MyBooksVC.swift */; };
 		567428F1202019E2004C09EC /* LoanedListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567428F0202019E1004C09EC /* LoanedListVC.swift */; };
-		567428F320201A22004C09EC /* SortVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567428F220201A22004C09EC /* SortVC.swift */; };
 		567428F720202576004C09EC /* StyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567428F620202576004C09EC /* StyleGuide.swift */; };
 		569E2C822032E95B0092A8ED /* BookDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569E2C812032E95B0092A8ED /* BookDetailsVC.swift */; };
 		569E2C88203308450092A8ED /* BookTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569E2C87203308450092A8ED /* BookTitleTableViewCell.swift */; };
@@ -38,6 +37,7 @@
 		56FC6E37203237BB00AF4527 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC6E36203237BB00AF4527 /* Functions.swift */; };
 		56FE60D62122AF4A00A9799C /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE60D52122AF4A00A9799C /* APIKey.swift */; };
 		56FE60D82122BC7D00A9799C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE60D72122BC7D00A9799C /* Constants.swift */; };
+		56FE60DA2123970E00A9799C /* SortVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE60D92123970E00A9799C /* SortVC.swift */; };
 		FFE6EC5AF85684665542E9B8 /* Pods_homelib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A918D2EBF6E4A772EBA628EC /* Pods_homelib.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +51,6 @@
 		56199C411F55E6A300F75EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		567428EE2020176D004C09EC /* MyBooksVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBooksVC.swift; sourceTree = "<group>"; };
 		567428F0202019E1004C09EC /* LoanedListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoanedListVC.swift; sourceTree = "<group>"; };
-		567428F220201A22004C09EC /* SortVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortVC.swift; sourceTree = "<group>"; };
 		567428F620202576004C09EC /* StyleGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleGuide.swift; sourceTree = "<group>"; };
 		569E2C812032E95B0092A8ED /* BookDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailsVC.swift; sourceTree = "<group>"; };
 		569E2C87203308450092A8ED /* BookTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTitleTableViewCell.swift; sourceTree = "<group>"; };
@@ -75,6 +74,7 @@
 		56FC6E36203237BB00AF4527 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		56FE60D52122AF4A00A9799C /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 		56FE60D72122BC7D00A9799C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		56FE60D92123970E00A9799C /* SortVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortVC.swift; sourceTree = "<group>"; };
 		7FA12017ECC827C9B31C61DD /* Pods-homelib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-homelib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-homelib/Pods-homelib.debug.xcconfig"; sourceTree = "<group>"; };
 		A918D2EBF6E4A772EBA628EC /* Pods_homelib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_homelib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2584394D546CC93717D10E4 /* Pods-homelib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-homelib.release.xcconfig"; path = "Pods/Target Support Files/Pods-homelib/Pods-homelib.release.xcconfig"; sourceTree = "<group>"; };
@@ -152,13 +152,13 @@
 			children = (
 				567428EE2020176D004C09EC /* MyBooksVC.swift */,
 				567428F0202019E1004C09EC /* LoanedListVC.swift */,
-				567428F220201A22004C09EC /* SortVC.swift */,
 				56CCF67F2024F1D000D5B8BE /* AddBookVC.swift */,
 				56FC6E342030DFFC00AF4527 /* BarcodeScannerVC.swift */,
 				569E2C812032E95B0092A8ED /* BookDetailsVC.swift */,
 				569E2C912033FE990092A8ED /* LoanBookVC.swift */,
 				569E2C95203436150092A8ED /* StatusChangeVC.swift */,
 				569E2CA72035887E0092A8ED /* AboutVC.swift */,
+				56FE60D92123970E00A9799C /* SortVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -353,6 +353,7 @@
 				56FC6E37203237BB00AF4527 /* Functions.swift in Sources */,
 				569E2C8A20338CFE0092A8ED /* NotesTableViewCell.swift in Sources */,
 				569E2C8C2033919B0092A8ED /* TextTableViewCell.swift in Sources */,
+				56FE60DA2123970E00A9799C /* SortVC.swift in Sources */,
 				569E2CAA2035A5710092A8ED /* LoanBookTVC.swift in Sources */,
 				569E2CA82035887E0092A8ED /* AboutVC.swift in Sources */,
 				56FC6D85202E352F00AF4527 /* BookDisplayCustomCell.swift in Sources */,
@@ -364,7 +365,6 @@
 				56CCF6802024F1D000D5B8BE /* AddBookVC.swift in Sources */,
 				567428F1202019E2004C09EC /* LoanedListVC.swift in Sources */,
 				569E2C9A2034C2900092A8ED /* ContactListTVC.swift in Sources */,
-				567428F320201A22004C09EC /* SortVC.swift in Sources */,
 				567428F720202576004C09EC /* StyleGuide.swift in Sources */,
 				569E2C90203391F00092A8ED /* ButtonTableViewCell.swift in Sources */,
 			);
