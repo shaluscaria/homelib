@@ -6,12 +6,12 @@ A powerful  app for  cataloguing  your home library
 Homelib also provide the feature of Scanning a book using BarCode reading using the iphone camera.
 
 **Main Features** :
-![alt text](https://github.com/shaluscaria/homelib/blob/master/Features.png)
+![alt text](https://github.com/shaluscaria/homelib/blob/master/mainfeatures.jpg)
 
 
 **Screenshots** :
 
-![alt text](https://github.com/shaluscaria/homelib/blob/master/HomeLib.jpg)
+![alt text](https://github.com/shaluscaria/homelib/blob/master/screenshots.jpg)
 
 **Future** :
 
