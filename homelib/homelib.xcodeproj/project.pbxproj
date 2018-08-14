@@ -15,7 +15,6 @@
 		567428EF2020176D004C09EC /* MyBooksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567428EE2020176D004C09EC /* MyBooksVC.swift */; };
 		567428F1202019E2004C09EC /* LoanedListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567428F0202019E1004C09EC /* LoanedListVC.swift */; };
 		567428F320201A22004C09EC /* SortVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567428F220201A22004C09EC /* SortVC.swift */; };
-		567428F520201AB1004C09EC /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567428F420201AB1004C09EC /* SettingsVC.swift */; };
 		567428F720202576004C09EC /* StyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567428F620202576004C09EC /* StyleGuide.swift */; };
 		569E2C822032E95B0092A8ED /* BookDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569E2C812032E95B0092A8ED /* BookDetailsVC.swift */; };
 		569E2C88203308450092A8ED /* BookTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569E2C87203308450092A8ED /* BookTitleTableViewCell.swift */; };
@@ -28,7 +27,6 @@
 		569E2C9820343B890092A8ED /* ChangeReadingStatusTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569E2C9720343B890092A8ED /* ChangeReadingStatusTVC.swift */; };
 		569E2C9A2034C2900092A8ED /* ContactListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569E2C992034C2900092A8ED /* ContactListTVC.swift */; };
 		569E2CA220352BC70092A8ED /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569E2CA120352BC70092A8ED /* DatabaseHelper.swift */; };
-		569E2CA42035823A0092A8ED /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569E2CA32035823A0092A8ED /* SettingsTableViewCell.swift */; };
 		569E2CA82035887E0092A8ED /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569E2CA72035887E0092A8ED /* AboutVC.swift */; };
 		569E2CAA2035A5710092A8ED /* LoanBookTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569E2CA92035A5710092A8ED /* LoanBookTVC.swift */; };
 		569E2CAC2035FAFC0092A8ED /* SortTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569E2CAB2035FAFC0092A8ED /* SortTableViewCell.swift */; };
@@ -54,7 +52,6 @@
 		567428EE2020176D004C09EC /* MyBooksVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBooksVC.swift; sourceTree = "<group>"; };
 		567428F0202019E1004C09EC /* LoanedListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoanedListVC.swift; sourceTree = "<group>"; };
 		567428F220201A22004C09EC /* SortVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortVC.swift; sourceTree = "<group>"; };
-		567428F420201AB1004C09EC /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		567428F620202576004C09EC /* StyleGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleGuide.swift; sourceTree = "<group>"; };
 		569E2C812032E95B0092A8ED /* BookDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailsVC.swift; sourceTree = "<group>"; };
 		569E2C87203308450092A8ED /* BookTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTitleTableViewCell.swift; sourceTree = "<group>"; };
@@ -67,7 +64,6 @@
 		569E2C9720343B890092A8ED /* ChangeReadingStatusTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeReadingStatusTVC.swift; sourceTree = "<group>"; };
 		569E2C992034C2900092A8ED /* ContactListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListTVC.swift; sourceTree = "<group>"; };
 		569E2CA120352BC70092A8ED /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
-		569E2CA32035823A0092A8ED /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
 		569E2CA72035887E0092A8ED /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
 		569E2CA92035A5710092A8ED /* LoanBookTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanBookTVC.swift; sourceTree = "<group>"; };
 		569E2CAB2035FAFC0092A8ED /* SortTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortTableViewCell.swift; sourceTree = "<group>"; };
@@ -157,7 +153,6 @@
 				567428EE2020176D004C09EC /* MyBooksVC.swift */,
 				567428F0202019E1004C09EC /* LoanedListVC.swift */,
 				567428F220201A22004C09EC /* SortVC.swift */,
-				567428F420201AB1004C09EC /* SettingsVC.swift */,
 				56CCF67F2024F1D000D5B8BE /* AddBookVC.swift */,
 				56FC6E342030DFFC00AF4527 /* BarcodeScannerVC.swift */,
 				569E2C812032E95B0092A8ED /* BookDetailsVC.swift */,
@@ -179,7 +174,6 @@
 				569E2C9320342EFD0092A8ED /* ReadingStatusTVC.swift */,
 				569E2C9720343B890092A8ED /* ChangeReadingStatusTVC.swift */,
 				569E2C992034C2900092A8ED /* ContactListTVC.swift */,
-				569E2CA32035823A0092A8ED /* SettingsTableViewCell.swift */,
 				569E2CA92035A5710092A8ED /* LoanBookTVC.swift */,
 				569E2CAB2035FAFC0092A8ED /* SortTableViewCell.swift */,
 			);
@@ -242,7 +236,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Shalu Scaria";
 				TargetAttributes = {
 					56199C2E1F55E6A300F75EBA = {
@@ -359,7 +353,6 @@
 				56FC6E37203237BB00AF4527 /* Functions.swift in Sources */,
 				569E2C8A20338CFE0092A8ED /* NotesTableViewCell.swift in Sources */,
 				569E2C8C2033919B0092A8ED /* TextTableViewCell.swift in Sources */,
-				569E2CA42035823A0092A8ED /* SettingsTableViewCell.swift in Sources */,
 				569E2CAA2035A5710092A8ED /* LoanBookTVC.swift in Sources */,
 				569E2CA82035887E0092A8ED /* AboutVC.swift in Sources */,
 				56FC6D85202E352F00AF4527 /* BookDisplayCustomCell.swift in Sources */,
@@ -374,7 +367,6 @@
 				567428F320201A22004C09EC /* SortVC.swift in Sources */,
 				567428F720202576004C09EC /* StyleGuide.swift in Sources */,
 				569E2C90203391F00092A8ED /* ButtonTableViewCell.swift in Sources */,
-				567428F520201AB1004C09EC /* SettingsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,7 +402,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -418,7 +412,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -460,7 +458,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -468,7 +468,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -500,12 +504,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8FAL99WJ93;
 				INFOPLIST_FILE = homelib/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shalu.homelib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -516,12 +521,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8FAL99WJ93;
 				INFOPLIST_FILE = homelib/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shalu.homelib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
