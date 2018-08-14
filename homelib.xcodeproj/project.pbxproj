@@ -39,6 +39,7 @@
 		56FC6E352030DFFC00AF4527 /* BarcodeScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC6E342030DFFC00AF4527 /* BarcodeScannerVC.swift */; };
 		56FC6E37203237BB00AF4527 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC6E36203237BB00AF4527 /* Functions.swift */; };
 		56FE60D62122AF4A00A9799C /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE60D52122AF4A00A9799C /* APIKey.swift */; };
+		56FE60D82122BC7D00A9799C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE60D72122BC7D00A9799C /* Constants.swift */; };
 		FFE6EC5AF85684665542E9B8 /* Pods_homelib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A918D2EBF6E4A772EBA628EC /* Pods_homelib.framework */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +78,7 @@
 		56FC6E342030DFFC00AF4527 /* BarcodeScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerVC.swift; sourceTree = "<group>"; };
 		56FC6E36203237BB00AF4527 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		56FE60D52122AF4A00A9799C /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		56FE60D72122BC7D00A9799C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7FA12017ECC827C9B31C61DD /* Pods-homelib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-homelib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-homelib/Pods-homelib.debug.xcconfig"; sourceTree = "<group>"; };
 		A918D2EBF6E4A772EBA628EC /* Pods_homelib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_homelib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2584394D546CC93717D10E4 /* Pods-homelib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-homelib.release.xcconfig"; path = "Pods/Target Support Files/Pods-homelib/Pods-homelib.release.xcconfig"; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				56FE60D52122AF4A00A9799C /* APIKey.swift */,
+				56FE60D72122BC7D00A9799C /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 				569E2C9420342EFD0092A8ED /* ReadingStatusTVC.swift in Sources */,
 				56FC6E352030DFFC00AF4527 /* BarcodeScannerVC.swift in Sources */,
 				569E2C96203436150092A8ED /* StatusChangeVC.swift in Sources */,
+				56FE60D82122BC7D00A9799C /* Constants.swift in Sources */,
 				569E2CA220352BC70092A8ED /* DatabaseHelper.swift in Sources */,
 				56F4734E202CD5AC006DC43B /* Books.swift in Sources */,
 				56199C3B1F55E6A300F75EBA /* homelib.xcdatamodeld in Sources */,
