@@ -1,0 +1,6 @@
+framework module Pods_homelib {
+  umbrella header "Pods-homelib-umbrella.h"
+
+  export *
+  module * { export * }
+}
